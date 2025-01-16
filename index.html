@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jeu de Taper</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="container-jeu">
+		<h1>Jeu de Taper</h1>
+		<div id="mot-taper" class="mot-taper">Mot à taper</div>
+		<input type="text" id="mot-taper-utilisateur" class="mot-taper-utilisateur" placeholder="Tapez le mot ici">
+		<p>Temps restant: <span id="temps">15</span> secondes</p>
+		<p>Score: <span id="score">0</span></p>
+		<p>Meilleur score: <span id="meilleur-score">0</span></p>
+		<button onclick="demarrerJeu()">Démarrer le jeu</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+
+</html>

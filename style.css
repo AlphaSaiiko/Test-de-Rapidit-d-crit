@@ -1,0 +1,97 @@
+body {
+	font-family: 'Arial', Helvetica, sans-serif;
+	text-align: center;
+	background-color: #f0f0f0;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container-jeu {
+	margin: 50px auto;
+	padding: 20px;
+	width: 300px;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	border: 1px solid #ddd;
+	animation: fadeIn 1s ease-in-out;
+}
+
+.mot-taper {
+	font-size: 24px;
+	margin: 20px 0;
+	font-weight: bold;
+	color: #333;
+	transition: color 0.3s ease;
+}
+
+.mot-taper-utilisateur {
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	transition: border-color 0.3s ease;
+}
+
+.mot-taper-utilisateur:focus {
+	border-color: #007bff;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+	background-color: #0056b3;
+	transform: scale(1.05);
+}
+
+#temps,
+#score {
+	font-size: 18px;
+	color: #555;
+	transition: color 0.3s ease;
+}
+
+h1 {
+	font-size: 32px;
+	color: #007bff;
+	margin-bottom: 20px;
+	animation: slideIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
