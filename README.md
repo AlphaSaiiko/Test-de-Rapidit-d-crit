@@ -25,7 +25,7 @@ Ce projet est un jeu de rapidité d'écriture où les utilisateurs doivent taper
 
 ## Démonstration
 
-![Démonstration du jeu](https://via.placeholder.com/600x400)
+![démonstration de la page](image.png)
 
 ## Technologies utilisées
 
@@ -35,8 +35,4 @@ Ce projet est un jeu de rapidité d'écriture où les utilisateurs doivent taper
 
 ## Auteur
 
-- **Votre Nom** - [Votre Profil GitHub](https://github.com/votre-profil)
-
-## Licence
-
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+- **Lechassles Antoine** - [Votre Profil GitHub](https://github.com/https://github.com/AlphaSaiiko)
